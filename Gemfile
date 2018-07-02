@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 ruby "2.3.3"
 
-gem 'rails', '4.2.6'
+gem 'rails', '4.2.7.1'
 gem 'puma', '~> 2.15'
 gem 'pg'
 
@@ -72,7 +72,7 @@ group :development do
   gem 'spring'
   gem 'guard-rspec', require: false
   gem 'spring-commands-rspec', '~> 1.0'
-  gem 'rack-mini-profiler', '~> 0.9.8', require: false
+  gem 'rack-mini-profiler', '~> 0.10.1', require: false
   gem 'annotate'
   gem 'bullet', '~> 5.0'
   gem 'quiet_assets', '~> 1.1'
